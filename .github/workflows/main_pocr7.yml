@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
         
+      - name: Test unitaire API
+      - run: appli.py
+
+      - name: Test unitaire dashboard
+      - run: dashboard.py
+        
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
