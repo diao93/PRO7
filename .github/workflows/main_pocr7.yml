@@ -30,10 +30,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
         
-      - name: Test unitaire API
+      - name: Run Test unitaire API
       - run:  PRO7/appli.py
 
-      - name: Test unitaire dashboard
+      - name: Run Test unitaire dashboard
       - run:  PRO7/dashboard.py
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
