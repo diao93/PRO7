@@ -11,7 +11,7 @@ psutil==5.9.0
 scikit-learn==1.0.2
 scipy==1.11.1  # Mise à jour vers une version compatible avec Python 3.7
 shap==0.41.0
-fastapi==0.109.1
+fastapi==0.103.2
 uvicorn==0.14.0
 streamlit==1.30.0
 requests==2.31.0  # Mise à jour vers une version compatible avec Python 3.7
